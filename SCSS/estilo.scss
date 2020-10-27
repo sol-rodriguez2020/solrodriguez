@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+$color-font:#000000;
+$title-font: normal 24px 'Cabin';
+$font2:Montserrat, sans-serif;
+
+h1 .display-4 {color:$color-font;
+   font:$title-font;
+  
+}
+p .lead {
+	grid-area: nav;
+	font-family:$font2;
+	color:$color-font;
+}
+.list-group-item {
+	font-family:$font2;
+	color:$color-font;
+}
+.col-sm {
+	font-family:$font2;
+	color:$color-font;
+}
+nav {
+    display: inline;
+	font-family:$font2;
+	color:$color-font;
+}
+.form-group row {
+	font-family:$font2;
+	color:$color-font;
+}
+.col-sm-10 {
+	font-family:$font2;
+	color:$color-font;
+}
+header{
+	width: 100% auto;
+}
+
+.navegacion{
+    display: inline;
+	width: 100%;
+	margin: 30px;
+	background: white;
+}
+
+.navegacion ul{
+	list-style: none;
+	display: inline;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 50px;
+	color: grey;
+	font-family: $font2;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: black;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: $font2;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.piedepagina ul{
+	list-style: none;
+}
+
+.menuinferior > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menuinferior > li > a{
+	display: block;
+	padding: 15px 100px;
+	color: grey;
+	font-family: $font2;
+	text-decoration: none;
+}
+
+.menuinferior li a:hover{
+	color: black;
+	transition: all .3s;
+}
+
+/* Submenu2*/
+
+.submenu2{
+	position: absolute;
+	bottom:50px;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: $font2;
+	text-decoration: none;
+}
+
+.menuinferior li:hover .submenu2 {
+	visibility: visible;
+	opacity: 1;
+}
+
+#sticky {
+	background-color:white;
+	position: sticky;
+	top:0px;
+	width: 100%;
+    z-index: 9999999999999;
+}
+.jumbotron {
+	background-color:white;
+}
+.container {
+	background-color:white;
+}
+.media {
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
